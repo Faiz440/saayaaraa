@@ -1,318 +1,239 @@
-	*
-	{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	}
-
-	body
-	{
-	margin: 0;
-	}
-
-	p
-	{
-	font-family: 'Nunito', sans-serif;
-	font-size: 15px;
-	}
-
-
-
-
-
-
-
-	.bg{
-	background-image: url(images/login-img.jpg);
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	background-size: cover;
-	background-position: center;
-	}
-
-	.bg .bg-overlay{
-	background-color: #292626;
-	}
-
-	.bg-overlay {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	top: 0;
-	opacity: .7;
-	}
-
-	.image img
-	{
-	vertical-align: middle;
-	border-style: none;
-	height: 70px;
-	width: auto;
-	}
-
-
-	.login-1
-	{
-	margin-top: 14%;
-	}
-
-	.scroll {
-	height: 90vh;
-	}
-
-	i
-	{
-	position: absolute;
-	left: 20px;
-	font-size: 30px;
-	margin-top: 4px;
-	}
-
-	.login-1 li i.fa
-	{
-	font-size:25px;
-	color: #00a859;
-	margin-top: 5%;
-	margin-left: 2%;
-	}
-
-
-
-	.login li i.fa
-	{
-	font-size:25px;
-	color: #00a859;
-	margin-top: 5%;
-	margin-left: 2%;
-	}
-
-
-	ul li
-	{
-	list-style: none;
-	}
-
-	.login input
-	{
-	margin-top: 24px;
-	height: 60px;
-	font-size: 15px;
-	padding-top:0px;
-	padding-left: 60px;
-	font-family: 'Nunito', sans-serif;
-	}
-
-
-	.login-1 input
-	{
-	height: 60px;
-	font-size:15px;
-	padding-top:0px;
-	padding-left: 60px;
-	font-family: 'Nunito', sans-serif;
-	}
-
-	.login button
-	{
-	margin-top: 20px;
-	color: white;
-	background-color: #00a859;
-	font-family: 'Lato', sans-serif;
-	min-width: 110px;
-	}
-
-
-	.forgot i
-	{
-	font-size: 20px;
-	margin-left: 16%;
-	color: #777;
-	position: relative;
-	display: flex;
-	}
-
-
-	.forgot p
-	{
-	color: #74788d;
-	margin-left: 3%;
-	}
-
-
-	.forgot 
-	{
-	margin-top: 10%;
-	}
-
-
-	.by
-	{
-	margin-top: 15%;
-	}
-
-	.by a:hover
-	{
-	text-decoration-line: none;
-	}
-
-	.by img
-	{
-	margin-top: 20px;
-	}
-
-	.gg
-	{
-	 overflow: hidden;
-	overflow-y: auto;
-	}
-
-
-
-
-
-
-
-
-	.image-1 img
-	{
-	vertical-align: middle;
-	border-style: none;
-	height: 70px;
-	width: auto;
-	}
-
-
-	.login-2
-	{
-	margin-top: 8%;
-	}
-
-	.scroll-1 {
-	height: 90vh;
-	}
-
-
-
-	.login-2 li i.fa
-	{
-	font-size:25px;
-	color: #00a859;
-	margin-top: 2.2%;
-	margin-left: 2%;
-	}
-
-
-
-	.login-3 li i.fa
-	{
-	font-size:25px;
-	color: #00a859;
-	margin-top: 2.6%;
-	margin-left: 2%;
-	}
-
-
-	ul li
-	{
-	list-style: none;
-	}
-
-	.login-3 input
-	{
-	margin-top: 24px;
-	height: 60px;
-	font-size: 15px;
-	padding-left: 60px;
-	font-family: 'Nunito', sans-serif;
-	}
-
-
-	.login-2 input
-	{
-	height: 60px;
-	font-size:15px;
-	padding-top:0px;
-	padding-left: 60px;
-	font-family: 'Nunito', sans-serif;
-	}
-
-	.login-3 button
-	{
-	margin-top: 20px;
-	color: white;
-	background-color: #00a859;
-	min-width: 110px;
-	}
-
-
-	.forgot-1 i
-	{
-	font-size: 20px;
-	margin-left: 35%;
-	color: #777;
-	position: relative;
-	display: flex;
-	}
-
-
-	.forgot-1 p
-	{
-	color: #74788d;
-	margin-left: 3%;
-	margin-top: 0%;
-	}
-
-
-	.forgot-1
-	{
-	margin-top: 4%;
-	}
-
-
-	.by-1
-	{
-	margin-top: 2%;
-	}
-
-	.by-1 a:hover
-	{
-	text-decoration-line: none;
-	}
-
-	.by-1 img
-	{
-	margin-top: 20px;
-	}
-
-
-
-
-
-
-
-
-
-	@media screen and (max-width:990px)
-	{
-	.bg
-	{
-		display: none;	
-	}
-
-	.gg
-	{
-		display: none;
-	}
-	}
-
-	@media screen and (min-width:991px)
-	{
-	.gg-1
-	{
-		display: none;
-	}
-	}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+
+.bg {
+  background-image: url(images/login-img.jpg);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg .bg-overlay {
+  background-color: #292626;
+}
+
+.bg-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  opacity: 0.7;
+}
+
+.image img {
+  vertical-align: middle;
+  border-style: none;
+  height: 70px;
+  width: auto;
+}
+
+.login-1 {
+  margin-top: 14%;
+}
+
+.scroll {
+  height: 90vh;
+}
+
+i {
+  position: absolute;
+  left: 20px;
+  font-size: 30px;
+  margin-top: 4px;
+}
+
+.login-1 li i.fa {
+  font-size: 25px;
+  color: #00a859;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.login li i.fa {
+  font-size: 25px;
+  color: #00a859;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.login input {
+  margin-top: 24px;
+  height: 60px;
+  font-size: 15px;
+  padding-top: 0px;
+  padding-left: 60px;
+  font-family: "Nunito", sans-serif;
+}
+
+.login-1 input {
+  height: 60px;
+  font-size: 15px;
+  padding-top: 0px;
+  padding-left: 60px;
+  font-family: "Nunito", sans-serif;
+}
+
+.login button {
+  margin-top: 20px;
+  color: white;
+  background-color: #00a859;
+  font-family: "Lato", sans-serif;
+  min-width: 110px;
+}
+
+.forgot i {
+  font-size: 20px;
+  margin-left: 16%;
+  color: #777;
+  position: relative;
+  display: flex;
+}
+
+.forgot p {
+  color: #74788d;
+  margin-left: 3%;
+}
+
+.forgot {
+  margin-top: 10%;
+}
+
+.by {
+  margin-top: 15%;
+}
+
+.by a:hover {
+  text-decoration-line: none;
+}
+
+.by img {
+  margin-top: 20px;
+}
+
+.gg {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.image-1 img {
+  vertical-align: middle;
+  border-style: none;
+  height: 70px;
+  width: auto;
+}
+
+.login-2 {
+  margin-top: 8%;
+}
+
+.scroll-1 {
+  height: 90vh;
+}
+
+.login-2 li i.fa {
+  font-size: 25px;
+  color: #00a859;
+  margin-top: 2.2%;
+  margin-left: 2%;
+}
+
+.login-3 li i.fa {
+  font-size: 25px;
+  color: #00a859;
+  margin-top: 2.6%;
+  margin-left: 2%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.login-3 input {
+  margin-top: 24px;
+  height: 60px;
+  font-size: 15px;
+  padding-left: 60px;
+  font-family: "Nunito", sans-serif;
+}
+
+.login-2 input {
+  height: 60px;
+  font-size: 15px;
+  padding-top: 0px;
+  padding-left: 60px;
+  font-family: "Nunito", sans-serif;
+}
+
+.login-3 button {
+  margin-top: 20px;
+  color: white;
+  background-color: #00a859;
+  min-width: 110px;
+}
+
+.forgot-1 i {
+  font-size: 20px;
+  margin-left: 35%;
+  color: #777;
+  position: relative;
+  display: flex;
+}
+
+.forgot-1 p {
+  color: #74788d;
+  margin-left: 3%;
+  margin-top: 0%;
+}
+
+.forgot-1 {
+  margin-top: 4%;
+}
+
+.by-1 {
+  margin-top: 2%;
+}
+
+.by-1 a:hover {
+  text-decoration-line: none;
+}
+
+.by-1 img {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .bg {
+    display: none;
+  }
+
+  .gg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .gg-1 {
+    display: none;
+  }
+}
